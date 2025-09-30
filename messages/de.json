@@ -1,0 +1,29 @@
+{
+  "common": {
+    "language": "Sprache",
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt",
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Loslegen",
+    "readMore": "Weiterlesen"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "Digitale Marketing-Lösungen",
+    "subtitle": "Verwandeln Sie Ihre Marke mit modernsten digitalen Marketingstrategien",
+    "cta": "Starten Sie Ihre Reise"
+  },
+  "seo": {
+    "home": {
+      "title": "Digital Marketing Agentur | Ihr Markenname",
+      "description": "Führende Digital Marketing Agentur mit innovativen Lösungen für Ihr Unternehmenswachstum"
+    }
+  }
+}

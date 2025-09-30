@@ -1,0 +1,29 @@
+{
+  "common": {
+    "language": "Langue",
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contact",
+    "learnMore": "En savoir plus",
+    "getStarted": "Commencer",
+    "readMore": "Lire la suite"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Solutions de Marketing Digital",
+    "subtitle": "Transformez votre marque avec des stratégies de marketing digital de pointe",
+    "cta": "Commencez votre parcours"
+  },
+  "seo": {
+    "home": {
+      "title": "Agence de Marketing Digital | Votre Nom de Marque",
+      "description": "Agence de marketing digital leader offrant des solutions innovantes pour la croissance de votre entreprise"
+    }
+  }
+}

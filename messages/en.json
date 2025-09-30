@@ -1,0 +1,29 @@
+{
+  "common": {
+    "language": "Language",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "readMore": "Read More"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Digital Marketing Solutions",
+    "subtitle": "Transform your brand with cutting-edge digital marketing strategies",
+    "cta": "Start Your Journey"
+  },
+  "seo": {
+    "home": {
+      "title": "Digital Marketing Agency | Your Brand Name",
+      "description": "Leading digital marketing agency providing innovative solutions for your business growth"
+    }
+  }
+}
