@@ -63,189 +63,186 @@ export const VARIANT_CONTENT: Record<string, Record<VariantId, VariantContent>> 
   en: {
     'control': {
       hero: {
-        headline: 'Digital Marketing Excellence in Luxembourg',
-        subheadline: 'Drive growth with data-driven strategies tailored for Luxembourg businesses',
-        ctaText: 'Get Your Free Audit',
+        headline: 'Digital Growth Made Simple for Luxembourg Businesses',
+        subheadline: 'Fresh approach to digital marketing. Transparent pricing, honest results, and strategies that work for SMBs in Luxembourg',
+        ctaText: 'Get Free 30-Min Consultation',
         ctaStyle: 'default',
       },
       services: {
-        title: 'Comprehensive Digital Solutions',
-        description: 'From SEO to paid advertising, we deliver results',
+        title: 'Digital Marketing Services',
+        description: 'SEO, PPC, Social Media, and Content Marketing for the Luxembourg market',
       },
       cta: {
-        text: 'Start Your Growth Journey',
+        text: 'Ready to Grow Your Online Presence?',
       },
     },
     'variant-a': {
       hero: {
-        headline: 'Transform Your Business This Quarter',
-        subheadline: 'Limited slots available - Luxembourg\'s premier digital marketing agency',
-        ctaText: 'Claim Your Spot Now',
+        headline: 'Honest Digital Marketing for Luxembourg SMBs',
+        subheadline: 'No inflated promises. No hidden fees. Just transparent, results-focused digital marketing from a team that understands your market',
+        ctaText: 'See Our Transparent Pricing',
         ctaStyle: 'default',
       },
       services: {
-        title: 'Proven Growth Strategies',
-        description: 'Join 150+ Luxembourg companies already growing',
+        title: 'What We Actually Do',
+        description: 'Real services, honest approach, measurable results',
       },
       cta: {
-        text: 'Book Free Strategy Call',
-        urgency: 'Only 3 spots left this month',
+        text: 'Let\'s Discuss Your Goals',
       },
     },
     'variant-b': {
       hero: {
-        headline: 'Generate 3X More Qualified Leads',
-        subheadline: 'Data-proven strategies that delivered €2.5M in client revenue last year',
-        ctaText: 'See Our ROI Calculator',
+        headline: 'Grow Your Business with Smart Digital Marketing',
+        subheadline: 'Strategic SEO, targeted ads, and engaging content designed specifically for Luxembourg\'s trilingual market',
+        ctaText: 'Request Free Marketing Audit',
         ctaStyle: 'secondary',
       },
       services: {
-        title: 'Performance-Driven Marketing',
-        description: 'Average 250% ROI across our Luxembourg clients',
+        title: 'How We Help You Grow',
+        description: 'Comprehensive digital strategies tailored to your business goals',
       },
       cta: {
-        text: 'Calculate Your Potential ROI',
+        text: 'Start Your Digital Strategy',
       },
     },
     'variant-c': {
       hero: {
-        headline: 'Luxembourg\'s Local Digital Marketing Experts',
-        subheadline: 'Serving Luxembourg-Ville, Esch, and the Greater Region since 2018',
-        ctaText: 'Talk to a Local Expert',
+        headline: 'Luxembourg\'s Fresh Digital Marketing Agency',
+        subheadline: 'New agency, experienced team. Specializing in multilingual digital marketing for Luxembourg, Esch, and the Greater Region',
+        ctaText: 'Meet Our Team',
         ctaStyle: 'outline',
       },
       services: {
-        title: 'Local Expertise, Global Standards',
-        description: 'Trusted by Luxembourg Chamber of Commerce members',
+        title: 'Local Expertise, Modern Approach',
+        description: 'Digital marketing that understands Luxembourg\'s unique market',
       },
       cta: {
-        text: 'Meet Your Local Team',
+        text: 'Discover Our Approach',
       },
     },
   },
   fr: {
     'control': {
       hero: {
-        headline: 'Excellence en Marketing Digital au Luxembourg',
-        subheadline: 'Stimulez votre croissance avec des stratégies adaptées aux entreprises luxembourgeoises',
-        ctaText: 'Obtenez Votre Audit Gratuit',
+        headline: 'Marketing Digital Simplifié pour les Entreprises Luxembourgeoises',
+        subheadline: 'Approche moderne du marketing digital. Tarifs transparents, résultats honnêtes et stratégies efficaces pour les PME au Luxembourg',
+        ctaText: 'Consultation Gratuite de 30 Min',
         ctaStyle: 'default',
       },
       services: {
-        title: 'Solutions Digitales Complètes',
-        description: 'Du SEO à la publicité payante, nous livrons des résultats',
+        title: 'Services de Marketing Digital',
+        description: 'SEO, publicité en ligne, réseaux sociaux et content marketing pour le marché luxembourgeois',
       },
       cta: {
-        text: 'Démarrez Votre Croissance',
+        text: 'Prêt à Développer Votre Présence en Ligne?',
       },
     },
     'variant-a': {
       hero: {
-        headline: 'Transformez Votre Entreprise Ce Trimestre',
-        subheadline: 'Places limitées - L\'agence digitale de référence au Luxembourg',
-        ctaText: 'Réservez Votre Place',
+        headline: 'Marketing Digital Transparent pour PME Luxembourgeoises',
+        subheadline: 'Pas de promesses exagérées. Pas de frais cachés. Juste du marketing digital transparent et axé sur les résultats',
+        ctaText: 'Voir Nos Tarifs Transparents',
         ctaStyle: 'default',
       },
       services: {
-        title: 'Stratégies de Croissance Éprouvées',
-        description: 'Rejoignez 150+ entreprises luxembourgeoises en croissance',
+        title: 'Ce Que Nous Faisons Réellement',
+        description: 'Services réels, approche honnête, résultats mesurables',
       },
       cta: {
-        text: 'Réservez Votre Appel Stratégique',
-        urgency: 'Seulement 3 places disponibles ce mois',
+        text: 'Discutons de Vos Objectifs',
       },
     },
     'variant-b': {
       hero: {
-        headline: 'Générez 3X Plus de Prospects Qualifiés',
-        subheadline: 'Stratégies prouvées ayant généré 2,5M€ de revenus clients l\'an dernier',
-        ctaText: 'Voir Notre Calculateur ROI',
+        headline: 'Développez Votre Entreprise avec du Marketing Digital Intelligent',
+        subheadline: 'SEO stratégique, publicités ciblées et contenu engageant conçus spécifiquement pour le marché trilingue du Luxembourg',
+        ctaText: 'Demander un Audit Marketing Gratuit',
         ctaStyle: 'secondary',
       },
       services: {
-        title: 'Marketing Axé sur la Performance',
-        description: 'ROI moyen de 250% pour nos clients luxembourgeois',
+        title: 'Comment Nous Vous Aidons à Grandir',
+        description: 'Stratégies digitales complètes adaptées à vos objectifs commerciaux',
       },
       cta: {
-        text: 'Calculez Votre ROI Potentiel',
+        text: 'Commencez Votre Stratégie Digitale',
       },
     },
     'variant-c': {
       hero: {
-        headline: 'Experts Locaux en Marketing Digital',
-        subheadline: 'Au service de Luxembourg-Ville, Esch et la Grande Région depuis 2018',
-        ctaText: 'Parlez à un Expert Local',
+        headline: 'Nouvelle Agence de Marketing Digital au Luxembourg',
+        subheadline: 'Nouvelle agence, équipe expérimentée. Spécialistes du marketing digital multilingue pour Luxembourg, Esch et la Grande Région',
+        ctaText: 'Rencontrer Notre Équipe',
         ctaStyle: 'outline',
       },
       services: {
-        title: 'Expertise Locale, Standards Internationaux',
-        description: 'De confiance des membres de la Chambre de Commerce',
+        title: 'Expertise Locale, Approche Moderne',
+        description: 'Marketing digital qui comprend le marché unique du Luxembourg',
       },
       cta: {
-        text: 'Rencontrez Votre Équipe Locale',
+        text: 'Découvrez Notre Approche',
       },
     },
   },
   de: {
     'control': {
       hero: {
-        headline: 'Exzellenz im Digitalmarketing in Luxemburg',
-        subheadline: 'Fördern Sie Wachstum mit datengesteuerten Strategien für luxemburgische Unternehmen',
-        ctaText: 'Kostenloses Audit Anfordern',
+        headline: 'Digitales Wachstum Einfach Gemacht für Luxemburger Unternehmen',
+        subheadline: 'Frischer Ansatz im Digitalmarketing. Transparente Preise, ehrliche Ergebnisse und Strategien für KMU in Luxemburg',
+        ctaText: 'Kostenlose 30-Min-Beratung',
         ctaStyle: 'default',
       },
       services: {
-        title: 'Umfassende Digitale Lösungen',
-        description: 'Von SEO bis bezahlter Werbung - wir liefern Ergebnisse',
+        title: 'Digitalmarketing-Services',
+        description: 'SEO, Online-Werbung, Social Media und Content Marketing für den luxemburgischen Markt',
       },
       cta: {
-        text: 'Starten Sie Ihre Wachstumsreise',
+        text: 'Bereit, Ihre Online-Präsenz Auszubauen?',
       },
     },
     'variant-a': {
       hero: {
-        headline: 'Transformieren Sie Ihr Geschäft Dieses Quartal',
-        subheadline: 'Begrenzte Plätze - Luxemburgs führende Digitalmarketing-Agentur',
-        ctaText: 'Platz Jetzt Sichern',
+        headline: 'Ehrliches Digitalmarketing für Luxemburger KMU',
+        subheadline: 'Keine überzogenen Versprechen. Keine versteckten Kosten. Nur transparentes, ergebnisorientiertes Digitalmarketing',
+        ctaText: 'Transparente Preise Ansehen',
         ctaStyle: 'default',
       },
       services: {
-        title: 'Bewährte Wachstumsstrategien',
-        description: 'Über 150 luxemburgische Unternehmen wachsen bereits',
+        title: 'Was Wir Tatsächlich Tun',
+        description: 'Echte Dienstleistungen, ehrlicher Ansatz, messbare Ergebnisse',
       },
       cta: {
-        text: 'Kostenloses Strategiegespräch Buchen',
-        urgency: 'Nur noch 3 Plätze diesen Monat',
+        text: 'Lassen Sie Uns Ihre Ziele Besprechen',
       },
     },
     'variant-b': {
       hero: {
-        headline: 'Generieren Sie 3X Mehr Qualifizierte Leads',
-        subheadline: 'Datenbasierte Strategien mit 2,5M€ Kundenumsatz im letzten Jahr',
-        ctaText: 'ROI-Rechner Ansehen',
+        headline: 'Wachsen Sie mit Intelligentem Digitalmarketing',
+        subheadline: 'Strategisches SEO, gezielte Werbung und ansprechende Inhalte speziell für Luxemburgs mehrsprachigen Markt',
+        ctaText: 'Kostenloses Marketing-Audit Anfordern',
         ctaStyle: 'secondary',
       },
       services: {
-        title: 'Leistungsorientiertes Marketing',
-        description: 'Durchschnittlich 250% ROI bei unseren luxemburgischen Kunden',
+        title: 'Wie Wir Ihnen Beim Wachstum Helfen',
+        description: 'Umfassende digitale Strategien, zugeschnitten auf Ihre Geschäftsziele',
       },
       cta: {
-        text: 'Potentiellen ROI Berechnen',
+        text: 'Starten Sie Ihre Digitalstrategie',
       },
     },
     'variant-c': {
       hero: {
-        headline: 'Luxemburgs Lokale Digitalmarketing-Experten',
-        subheadline: 'Seit 2018 in Luxemburg-Stadt, Esch und der Großregion tätig',
-        ctaText: 'Mit Lokalem Experten Sprechen',
+        headline: 'Luxemburgs Neue Digitalmarketing-Agentur',
+        subheadline: 'Neue Agentur, erfahrenes Team. Spezialisiert auf mehrsprachiges Digitalmarketing für Luxemburg, Esch und die Großregion',
+        ctaText: 'Unser Team Kennenlernen',
         ctaStyle: 'outline',
       },
       services: {
-        title: 'Lokales Know-how, Globale Standards',
-        description: 'Vertraut von Mitgliedern der Handelskammer Luxemburg',
+        title: 'Lokale Expertise, Moderner Ansatz',
+        description: 'Digitalmarketing, das Luxemburgs einzigartigen Markt versteht',
       },
       cta: {
-        text: 'Lernen Sie Ihr Lokales Team Kennen',
+        text: 'Entdecken Sie Unseren Ansatz',
       },
     },
   },

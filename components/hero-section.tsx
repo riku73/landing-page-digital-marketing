@@ -102,7 +102,7 @@ export function HeroSection({
                     clipRule="evenodd"
                   />
                 </svg>
-                <span>150+ Clients</span>
+                <span>New Agency, Experienced Team</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg
@@ -116,7 +116,7 @@ export function HeroSection({
                     clipRule="evenodd"
                   />
                 </svg>
-                <span>5+ Years Experience</span>
+                <span>Transparent Pricing</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg

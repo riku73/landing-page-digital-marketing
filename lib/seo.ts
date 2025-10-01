@@ -17,26 +17,26 @@ export function generateLocalBusinessSchema(locale: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://yourdomain.lu/#organization',
-    name: 'Digital Marketing Luxembourg',
-    alternateName: locale === 'fr' ? 'Marketing Digital Luxembourg' : 'Digitalmarketing Luxemburg',
+    '@id': 'https://luxdigital.lu/#organization',
+    name: 'LuxDigital',
+    alternateName: locale === 'fr' ? 'LuxDigital Luxembourg' : 'LuxDigital Luxemburg',
     description:
       locale === 'en'
-        ? 'Premier digital marketing agency in Luxembourg specializing in SEO, PPC, and social media marketing'
+        ? 'Fresh digital marketing agency in Luxembourg specializing in SEO, PPC, and social media marketing for SMBs'
         : locale === 'fr'
-        ? 'Agence de marketing digital leader au Luxembourg, spécialisée en SEO, publicité payante et réseaux sociaux'
-        : 'Führende Digitalagentur in Luxemburg mit Fokus auf SEO, bezahlte Werbung und Social-Media-Marketing',
-    url: `https://yourdomain.lu/${locale}`,
-    logo: 'https://yourdomain.lu/logo.png',
-    image: 'https://yourdomain.lu/og-image.jpg',
-    telephone: '+352-123-456',
-    email: 'contact@yourdomain.lu',
+        ? 'Nouvelle agence de marketing digital au Luxembourg, spécialisée en SEO, publicité en ligne et réseaux sociaux pour PME'
+        : 'Neue Digitalagentur in Luxemburg mit Fokus auf SEO, Online-Werbung und Social-Media-Marketing für KMU',
+    url: `https://luxdigital.lu/${locale}`,
+    logo: 'https://luxdigital.lu/logo.png',
+    image: 'https://luxdigital.lu/og-image.jpg',
+    telephone: '+352 27 99 10 50',
+    email: 'hello@luxdigital.lu',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Your Street 123',
+      streetAddress: '1 Rue de la Chapelle',
       addressLocality: 'Luxembourg',
       addressRegion: 'Luxembourg',
-      postalCode: 'L-1234',
+      postalCode: 'L-1325',
       addressCountry: 'LU',
     },
     geo: {
@@ -67,16 +67,11 @@ export function generateLocalBusinessSchema(locale: string) {
         closes: '18:00',
       },
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '150',
-    },
     sameAs: [
-      'https://www.facebook.com/yourpage',
-      'https://www.linkedin.com/company/yourcompany',
-      'https://twitter.com/yourhandle',
-      'https://www.instagram.com/yourhandle',
+      'https://www.facebook.com/luxdigitallu',
+      'https://www.linkedin.com/company/luxdigital-luxembourg',
+      'https://twitter.com/luxdigital_lu',
+      'https://www.instagram.com/luxdigital.lu',
     ],
   };
 }
@@ -111,7 +106,7 @@ export function generateServiceSchema(locale: string) {
     '@context': 'https://schema.org',
     '@type': 'Service',
     provider: {
-      '@id': 'https://yourdomain.lu/#organization',
+      '@id': 'https://luxdigital.lu/#organization',
     },
     serviceType: 'Digital Marketing',
     hasOfferCatalog: {
@@ -224,23 +219,23 @@ export function generateOrganizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    '@id': 'https://yourdomain.lu/#organization',
-    name: 'Digital Marketing Luxembourg',
-    url: 'https://yourdomain.lu',
-    logo: 'https://yourdomain.lu/logo.png',
+    '@id': 'https://luxdigital.lu/#organization',
+    name: 'LuxDigital',
+    url: 'https://luxdigital.lu',
+    logo: 'https://luxdigital.lu/logo.png',
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+352-123-456',
+      telephone: '+352 27 99 10 50',
       contactType: 'customer service',
-      email: 'contact@yourdomain.lu',
+      email: 'hello@luxdigital.lu',
       areaServed: 'LU',
       availableLanguage: ['en', 'fr', 'de'],
     },
     sameAs: [
-      'https://www.facebook.com/yourpage',
-      'https://www.linkedin.com/company/yourcompany',
-      'https://twitter.com/yourhandle',
-      'https://www.instagram.com/yourhandle',
+      'https://www.facebook.com/luxdigitallu',
+      'https://www.linkedin.com/company/luxdigital-luxembourg',
+      'https://twitter.com/luxdigital_lu',
+      'https://www.instagram.com/luxdigital.lu',
     ],
   };
 }
@@ -251,9 +246,9 @@ export function generateOrganizationSchema() {
 export function getSEOMetadata(locale: string): SEOMetadata {
   const metadata = {
     en: {
-      title: 'Digital Marketing Agency Luxembourg | SEO, PPC & Social Media',
+      title: 'LuxDigital - Digital Marketing Agency Luxembourg | SEO, PPC & Social Media',
       description:
-        'Transform your business with Luxembourg\'s premier digital marketing agency. Specializing in SEO, PPC, and social media marketing. 250% average ROI. Get your free audit today.',
+        'Fresh digital marketing agency in Luxembourg. Transparent pricing, honest results. SEO, PPC, social media & content marketing for SMBs. Free consultation available.',
       keywords: [
         'digital marketing luxembourg',
         'seo luxembourg',
@@ -262,13 +257,14 @@ export function getSEOMetadata(locale: string): SEOMetadata {
         'marketing agency luxembourg',
         'online marketing luxembourg',
         'content marketing luxembourg',
-        'marketing digital luxembourg',
+        'luxdigital',
+        'sme marketing luxembourg',
       ],
     },
     fr: {
-      title: 'Agence Marketing Digital Luxembourg | SEO, PPC & Réseaux Sociaux',
+      title: 'LuxDigital - Agence Marketing Digital Luxembourg | SEO, PPC & Réseaux Sociaux',
       description:
-        'Transformez votre entreprise avec l\'agence leader en marketing digital au Luxembourg. Spécialiste SEO, PPC et réseaux sociaux. ROI moyen de 250%. Audit gratuit disponible.',
+        'Nouvelle agence de marketing digital au Luxembourg. Tarifs transparents, résultats honnêtes. SEO, publicité en ligne, réseaux sociaux pour PME. Consultation gratuite.',
       keywords: [
         'marketing digital luxembourg',
         'agence marketing luxembourg',
@@ -281,9 +277,9 @@ export function getSEOMetadata(locale: string): SEOMetadata {
       ],
     },
     de: {
-      title: 'Digitalagentur Luxemburg | SEO, PPC & Social Media Marketing',
+      title: 'LuxDigital - Digitalagentur Luxemburg | SEO, PPC & Social Media',
       description:
-        'Transformieren Sie Ihr Geschäft mit Luxemburgs führender Digitalagentur. Spezialisiert auf SEO, PPC und Social-Media-Marketing. Durchschnittlicher ROI von 250%. Kostenlose Analyse.',
+        'Neue Digitalagentur in Luxemburg. Transparente Preise, ehrliche Ergebnisse. SEO, PPC, Social Media & Content Marketing für KMU. Kostenlose Beratung verfügbar.',
       keywords: [
         'digitalmarketing luxemburg',
         'marketingagentur luxemburg',
@@ -292,7 +288,8 @@ export function getSEOMetadata(locale: string): SEOMetadata {
         'social media marketing luxemburg',
         'online marketing luxemburg',
         'content marketing luxemburg',
-        'webagentur luxemburg',
+        'luxdigital',
+        'kmu marketing luxemburg',
       ],
     },
   };

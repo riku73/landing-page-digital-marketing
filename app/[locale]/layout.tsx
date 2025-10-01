@@ -23,26 +23,26 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: seoData.description,
     keywords: seoData.keywords,
     alternates: {
-      canonical: `https://yourdomain.lu/${locale}`,
+      canonical: `https://luxdigital.lu/${locale}`,
       languages: {
-        'en': 'https://yourdomain.lu/en',
-        'fr': 'https://yourdomain.lu/fr',
-        'de': 'https://yourdomain.lu/de',
+        'en': 'https://luxdigital.lu/en',
+        'fr': 'https://luxdigital.lu/fr',
+        'de': 'https://luxdigital.lu/de',
       },
     },
     openGraph: {
       title: seoData.title,
       description: seoData.description,
-      url: `https://yourdomain.lu/${locale}`,
-      siteName: 'Digital Marketing Luxembourg',
+      url: `https://luxdigital.lu/${locale}`,
+      siteName: 'LuxDigital',
       locale: locale,
       type: 'website',
       images: [
         {
-          url: 'https://yourdomain.lu/og-image.jpg',
+          url: 'https://luxdigital.lu/og-image.jpg',
           width: 1200,
           height: 630,
-          alt: 'Digital Marketing Luxembourg',
+          alt: 'LuxDigital - Digital Marketing Luxembourg',
         },
       ],
     },
@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       card: 'summary_large_image',
       title: seoData.title,
       description: seoData.description,
-      images: ['https://yourdomain.lu/og-image.jpg'],
+      images: ['https://luxdigital.lu/og-image.jpg'],
     },
     robots: {
       index: true,
@@ -118,7 +118,7 @@ export default async function LocaleLayout({
               <div className="container flex h-16 items-center justify-between">
                 <div className="flex items-center gap-6">
                   <a href={`/${locale}`} className="text-xl font-bold">
-                    Digital Marketing LU
+                    LuxDigital
                   </a>
                 </div>
                 <LanguageSwitcher currentLocale={locale} />
@@ -127,7 +127,7 @@ export default async function LocaleLayout({
             <main>{children}</main>
             <footer className="border-t py-8">
               <div className="container text-center text-sm text-muted-foreground">
-                © 2024 Digital Marketing Luxembourg. All rights reserved.
+                © 2024 LuxDigital. All rights reserved.
               </div>
             </footer>
           </div>
